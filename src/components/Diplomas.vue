@@ -30,6 +30,6 @@ export default {
 
 <style scoped>
 .skills-wrapper > div:nth-child(n + 2) {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 </style>

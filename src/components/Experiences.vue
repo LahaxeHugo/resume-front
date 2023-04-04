@@ -37,7 +37,7 @@ export default {
 
 <style scoped>
 .experiences-wrapper > div:nth-child(n + 2) {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .details {
