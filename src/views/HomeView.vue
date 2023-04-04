@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <Intro />
     <Skills />
     <Diplomas />
     <Experiences />
@@ -7,6 +8,7 @@
 </template>
 
 <script setup>
+import Intro from '../components/Intro.vue'
 import Skills from '../components/Skills.vue'
 import Diplomas from '../components/Diplomas.vue'
 import Experiences from '../components/Experiences.vue'
