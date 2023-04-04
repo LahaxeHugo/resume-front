@@ -1,0 +1,54 @@
+[
+  {
+    "name": "HTML",
+    "important": false
+  },
+  {
+    "name": "CSS",
+    "important": false
+  },
+  {
+    "name": "SCSS",
+    "important": false
+  },
+  {
+    "name": "Javascript",
+    "important": false
+  },
+  {
+    "name": "Vue.js",
+    "important": true
+  },
+  {
+    "name": "React.js",
+    "important": false
+  },
+  {
+    "name": "React native",
+    "important": true
+  },
+  {
+    "name": "PHP",
+    "important": false
+  },
+  {
+    "name": "Symfony",
+    "important": true
+  },
+  {
+    "name": "MySQL",
+    "important": false
+  },
+  {
+    "name": "Wordpress",
+    "important": false
+  },
+  {
+    "name": "Prestashop",
+    "important": false
+  },
+  {
+    "name": "CakePHP",
+    "important": false
+  }
+]

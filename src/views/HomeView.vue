@@ -1,7 +1,9 @@
-<script setup></script>
-
 <template>
   <div class="home">
-    <h1>Homepage</h1>
+    <Skills />
   </div>
 </template>
+
+<script setup>
+import Skills from '../components/Skills.vue'
+</script>
