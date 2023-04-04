@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Développeur FullStack",
+    "company": "Noox",
+    "date-from": "2020",
+    "date-to": "2022",
+    "location": "Cenon",
+    "details": [
+      "Sites e-commerce prestashop (thèmes, modules)",
+      "Site vitrine symfony, (gestion contenu avec easyadmin)",
+      "Logiciel de gestion commerciale (react, symfony)"
+    ]
+  },
+  {
+    "name": "Développeur Wordpress",
+    "company": "Agence Marketing Bordeaux",
+    "date-from": "2020",
+    "date-to": "2020",
+    "location": "Eysines",
+    "details": [
+      "Maintenance/création site wordpress",
+      "Développement extensions wordpress : backup wordpress, log connexion utilisateurs..",
+      "Création catalogue “thème” wordpress avec installation automatique"
+    ]
+  },
+  {
+    "name": "Développeur PHP",
+    "company": "Adopteunto.com",
+    "date-from": "2019",
+    "date-to": "2019",
+    "location": "Mérignac",
+    "details": [
+      "Page modification filtre, statistiques, traitement fichier xml",
+      "Blocage connexion simultanée ",
+      "Mise à niveau de code"
+    ]
+  },
+  {
+    "name": "Service informatique/web",
+    "company": "La Compagnie BMC",
+    "date-from": "2018",
+    "date-to": "2018",
+    "location": "Bègles",
+    "details": [
+      "Projet développement gestion d’erreur Prestashop",
+      "Gestion de réseau",
+      "Maintenance informatique"
+    ]
+  }
+]
