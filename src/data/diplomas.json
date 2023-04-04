@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Mastère Développement Web",
+    "school": "ECV Digital",
+    "date-from": 2020,
+    "date-to": 2022,
+    "location": "Bordeaux",
+    "description": "Formation en alternance, apprentissage de langages tels que Symfony, MySQL, JavaScript ainsi qu’au pratiques DevOps & Clean Code."
+  },
+  {
+    "name": "Bachelor Chef de Projet Digital",
+    "school": "ECV Digital",
+    "date-from": 2017,
+    "date-to": 2020,
+    "location": "Bordeaux",
+    "description": "Formation au WebDesign, à l’E-marketing, à l’UX Design ainsi qu’au Développement web."
+  }
+]
