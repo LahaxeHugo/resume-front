@@ -14,14 +14,25 @@ const router = createRouter({
     {
       path: '/projects',
       name: 'projects',
-      component: ProjectsView
+      component: ProjectsView,
+      meta: {
+        title: 'Projets'
+      }
     },
     {
       path: '/contact',
       name: 'contact',
-      component: ContactView
+      component: ContactView,
+      meta: {
+        title: 'Contact'
+      }
     }
   ]
+})
+
+router.beforeEach((to, from, next) => {
+  document.title = import.meta.env.VITE_APP_TITLE + (to.meta.title ? ' | ' + to.meta.title : '')
+  next()
 })
 
 export default router
