@@ -1,5 +1,42 @@
 @import './base.css';
 
+body {
+  overflow-y: scroll;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-green);
+  border: 3px solid var(--color-background);
+  border-radius: 10px;
+}
+
+.page-enter-active {
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+.page-leave-active {
+  transition: all 0.5s ease;
+}
+
+.home.page-enter-active {
+  transition-duration: 2s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+
 #app {
   font-weight: normal;
   min-height: 100vh;

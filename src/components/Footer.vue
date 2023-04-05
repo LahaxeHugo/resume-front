@@ -17,5 +17,7 @@ footer {
   text-align: center;
   padding: 1rem;
   border-top: 1px solid var(--color-border);
+  width: 95%;
+  margin: auto;
 }
 </style>
