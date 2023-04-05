@@ -15,6 +15,11 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <style scoped>
+header {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
 nav {
   width: 100%;
   font-size: 16px;
