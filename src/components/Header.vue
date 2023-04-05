@@ -18,6 +18,7 @@ import { RouterLink } from 'vue-router'
 header {
   line-height: 1.5;
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 nav {

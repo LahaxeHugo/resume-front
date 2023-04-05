@@ -1,0 +1,21 @@
+<template>
+  <footer>Copyright © {{ year }} Hugo Lahaxe. All rights reserved</footer>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      year: new Date().getFullYear()
+    }
+  }
+}
+</script>
+
+<style scoped>
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+</style>
