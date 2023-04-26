@@ -97,7 +97,7 @@ export default {
 }
 .link:hover {
   background-color: unset;
-  color: var(--color-green);
+  color: var(--color-main);
 }
 .link-text {
   margin-left: 15px;
@@ -113,7 +113,7 @@ export default {
   display: block;
   width: 50px;
   height: 50px;
-  fill: var(--color-green);
+  fill: var(--color-main);
   transition: fill 1s;
 }
 .icon-link:hover svg {

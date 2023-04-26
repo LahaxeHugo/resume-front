@@ -94,7 +94,7 @@ export default {
   text-align: center;
 }
 .skills-wrapper span.important {
-  color: var(--color-green);
+  color: var(--color-main);
   font-weight: bold;
 }
 

@@ -15,7 +15,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--color-green);
+  background: var(--color-main);
   border: 3px solid var(--color-background);
   border-radius: 10px;
 }
@@ -54,7 +54,7 @@ body {
 a,
 .green {
   text-decoration: none;
-  color: var(--color-green);
+  color: var(--color-main);
   transition: 0.4s;
 }
 
@@ -76,7 +76,7 @@ a,
 
 .title2 {
   font-size: 18px;
-  color: var(--color-green);
+  color: var(--color-main);
   font-weight: bold;
 }
 .title3 {
