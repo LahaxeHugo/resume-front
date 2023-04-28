@@ -49,20 +49,10 @@
   </div>
 </template>
 
-<script>
-import SkillsData from '@/data/skills.json'
-import DiplomasData from '@/data/diplomas.json'
-import ExperiencesData from '@/data/experiences.json'
-
-export default {
-  data() {
-    return {
-      skills: SkillsData,
-      diplomas: DiplomasData,
-      experiences: ExperiencesData
-    }
-  }
-}
+<script setup>
+import skills from '@/data/skills.json'
+import diplomas from '@/data/diplomas.json'
+import experiences from '@/data/experiences.json'
 </script>
 
 <style scoped>

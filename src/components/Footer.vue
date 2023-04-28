@@ -2,14 +2,8 @@
   <footer>Copyright © {{ year }} Hugo Lahaxe. All rights reserved</footer>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      year: new Date().getFullYear()
-    }
-  }
-}
+<script setup>
+const year = new Date().getFullYear()
 </script>
 
 <style scoped>

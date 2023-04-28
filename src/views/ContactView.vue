@@ -33,30 +33,14 @@
   </div>
 </template>
 
-<script>
-import ContactsData from '@/data/contacts.json'
+<script setup>
+import contacts from '@/data/contacts.json'
 import Phone from '@/assets/img/icons/phone.svg'
 import Mailbox from '@/assets/img/icons/mailbox.svg'
 import City from '@/assets/img/icons/city.svg'
 import Github from '@/assets/img/icons/github.svg'
 import Linkedin from '@/assets/img/icons/linkedin.svg'
 import Instagram from '@/assets/img/icons/instagram.svg'
-
-export default {
-  components: {
-    Phone,
-    Mailbox,
-    City,
-    Github,
-    Linkedin,
-    Instagram
-  },
-  data() {
-    return {
-      contacts: ContactsData
-    }
-  }
-}
 </script>
 
 <style scoped>
