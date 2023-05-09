@@ -14,4 +14,9 @@ footer {
   width: 95%;
   margin: auto;
 }
+@media screen and (max-width: 500px) {
+  footer {
+    font-size: 12px;
+  }
+}
 </style>

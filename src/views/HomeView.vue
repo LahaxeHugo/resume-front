@@ -96,4 +96,13 @@ const { skills, diplomas, experiences, homeDetails } = storeToRefs(store)
 .details {
   padding-left: 20px;
 }
+
+@media screen and (max-width: 500px) {
+  .name {
+    font-size: 24px;
+  }
+  .job {
+    font-size: 14px;
+  }
+}
 </style>
