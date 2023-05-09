@@ -45,7 +45,6 @@ import { storeToRefs } from 'pinia'
 import { useAppStore } from '@/stores/app'
 
 const store = useAppStore()
-store.fetchContact()
 const { contact } = storeToRefs(store)
 </script>
 

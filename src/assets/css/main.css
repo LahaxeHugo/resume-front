@@ -43,6 +43,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+#app .content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 #app main {
   flex-grow: 1;
   width: 1000px;

@@ -51,7 +51,6 @@ import { storeToRefs } from 'pinia'
 import { useAppStore } from '@/stores/app'
 
 const store = useAppStore()
-store.fetchHome()
 const { skills, diplomas, experiences, homeDetails } = storeToRefs(store)
 </script>
 

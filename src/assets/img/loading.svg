@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Loading" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 500 500" style="white-space: pre;">
+    <g id="Shape-Layer-1" style="animation: 1s linear both Shape-Layer-1_mo infinite; offset-path: path('M277,266C277,255,277,200,277,200C277,200,277,255,277,266L277,266'); offset-rotate: 0deg;">
+        <g id="Ellipse-1" opacity="1" transform="translate(-167.432,-17.432)">
+            <path id="Ellipse-Path-1" fill="#2E754A" d="M0,-22.5685C12.4642,-22.5685,22.5685,-12.4642,22.5685,0C22.5685,12.4642,12.4642,22.5685,0,22.5685C-12.4642,22.5685,-22.5685,12.4642,-22.5685,0C-22.5685,-12.4642,-12.4642,-22.5685,0,-22.5685Z" fill-opacity="1" fill-rule="nonzero" stroke="rgba(46,117,74,undefined)" stroke-opacity="1" stroke-width="8" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter"/>
+        </g>
+    </g>
+    <g id="Shape-Layer-2" style="animation: 1s linear both Shape-Layer-2_mo infinite; offset-path: path('M365,266L365,266L365,200C365,200,365,255,365,266L365,266'); offset-rotate: 0deg;">
+        <g id="Ellipse-1-2" opacity="1" transform="translate(-167.432,-17.432)">
+            <path id="Ellipse-Path-1-2" fill="#36A461" d="M0,-22.5685C12.4642,-22.5685,22.5685,-12.4642,22.5685,0C22.5685,12.4642,12.4642,22.5685,0,22.5685C-12.4642,22.5685,-22.5685,12.4642,-22.5685,0C-22.5685,-12.4642,-12.4642,-22.5685,0,-22.5685Z" fill-opacity="1" fill-rule="nonzero" stroke="rgba(54,164,97,undefined)" stroke-opacity="1" stroke-width="8" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter"/>
+        </g>
+    </g>
+    <g id="Shape-Layer-3" style="animation: 1s linear both Shape-Layer-3_mo infinite; offset-path: path('M454,266L454,266L454,200C454,200,454,255,454,266L454,266'); offset-rotate: 0deg;">
+        <g id="Ellipse-1-3" opacity="1" transform="translate(-167.432,-17.432)">
+            <path id="Ellipse-Path-1-3" fill="#52D586" d="M0,-22.5685C12.4642,-22.5685,22.5685,-12.4642,22.5685,0C22.5685,12.4642,12.4642,22.5685,0,22.5685C-12.4642,22.5685,-22.5685,12.4642,-22.5685,0C-22.5685,-12.4642,-12.4642,-22.5685,0,-22.5685Z" fill-opacity="1" fill-rule="nonzero" stroke="rgba(82,213,134,undefined)" stroke-opacity="1" stroke-width="8" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter"/>
+        </g>
+    </g>
+    <g id="Shape-Layer-4" style="animation: 1s linear both Shape-Layer-4_mo infinite; offset-path: path('M546,266L546,266L546,200C546,200,546,255,546,266L546,266'); offset-rotate: 0deg;">
+        <g id="Ellipse-1-4" opacity="1" transform="translate(-167.432,-17.432)">
+            <path id="Ellipse-Path-1-4" fill="#6DEDA0" d="M0,-22.5685C12.4642,-22.5685,22.5685,-12.4642,22.5685,0C22.5685,12.4642,12.4642,22.5685,0,22.5685C-12.4642,22.5685,-22.5685,12.4642,-22.5685,0C-22.5685,-12.4642,-12.4642,-22.5685,0,-22.5685Z" fill-opacity="1" fill-rule="nonzero" stroke="rgba(109,237,160,undefined)" stroke-opacity="1" stroke-width="8" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter"/>
+        </g>
+    </g>
+</svg>
