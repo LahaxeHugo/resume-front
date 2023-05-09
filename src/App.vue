@@ -46,7 +46,6 @@ init()
 
 const enterCancelled = (element) => {
   element.style.transitionDuration = '0s'
-  console.log('enter cancelled')
 }
 
 const enter = (element) => {
