@@ -1,6 +1,6 @@
 <template>
-  <Loader v-if="loading === true" />
-  <div class="content" v-else>
+  <Loader :loading="loading" />
+  <div class="content" v-if="loading === false">
     <Header />
     <main class="main">
       <router-view v-slot="{ Component }">

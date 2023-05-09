@@ -1,11 +1,13 @@
 <template>
-  <div id="loader">
-    <Loading />
+  <div id="loader" :class="{ hide: !loading }">
+    <LoadingSvg />
   </div>
 </template>
 
 <script setup>
-import Loading from '@/assets/img/loading.svg'
+import LoadingSvg from '@/assets/img/loading.svg'
+
+const props = defineProps({ loading: Boolean })
 </script>
 
 <style scoped>
@@ -19,9 +21,18 @@ import Loading from '@/assets/img/loading.svg'
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--color-background);
+  z-index: 1;
+  transition: 0.5s all;
+  opacity: 1;
+  visibility: visible;
 }
 #loader svg {
   width: 200px;
+}
+#loader.hide {
+  opacity: 0;
+  visibility: hidden;
 }
 </style>
 
