@@ -4,28 +4,28 @@
     <div class="contact-wrapper">
       <div class="contact-left">
         <p>
-          <a :href="'tel:' + contacts.tel" class="link">
+          <a :href="'tel:' + contact.tel" class="link">
             <Phone />
-            <span class="link-text">{{ contacts.tel }}</span>
+            <span class="link-text">{{ contact.tel }}</span>
           </a>
-          <a :href="'mailto:' + contacts.email" class="link">
+          <a :href="'mailto:' + contact.email" class="link">
             <Mailbox />
-            <span class="link-text">{{ contacts.email }}</span>
+            <span class="link-text">{{ contact.email }}</span>
           </a>
           <a href="#" class="link">
             <City />
-            <span class="link-text">{{ contacts.location }}</span>
+            <span class="link-text">{{ contact.location }}</span>
           </a>
         </p>
       </div>
       <div class="contact-right">
-        <a :href="contacts.github" class="icon-link" :title="contacts.github" target="_blank">
+        <a :href="contact.github" class="icon-link" :title="contact.github" target="_blank">
           <Github />
         </a>
-        <a :href="contacts.linkedin" class="icon-link" :title="contacts.linkedin" target="_blank">
+        <a :href="contact.linkedin" class="icon-link" :title="contact.linkedin" target="_blank">
           <Linkedin />
         </a>
-        <a :href="contacts.instagram" class="icon-link" :title="contacts.instagram" target="_blank">
+        <a :href="contact.instagram" class="icon-link" :title="contact.instagram" target="_blank">
           <Instagram />
         </a>
       </div>
@@ -45,8 +45,8 @@ import { storeToRefs } from 'pinia'
 import { useAppStore } from '@/stores/app'
 
 const store = useAppStore()
-store.fetchContacts()
-const { contacts } = storeToRefs(store)
+store.fetchContact()
+const { contact } = storeToRefs(store)
 </script>
 
 <style scoped>

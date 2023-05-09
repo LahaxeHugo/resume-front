@@ -4,7 +4,8 @@ import axios from 'axios'
 
 export const useAppStore = defineStore('app', () => {
   const error = ref(false)
-  const contacts = ref({})
+
+  const contact = ref({})
 
   const home = ref({})
   const skills = ref({})
@@ -12,11 +13,11 @@ export const useAppStore = defineStore('app', () => {
   const experiences = ref({})
   const homeDetails = ref({})
 
-  const fetchContacts = async () => {
-    if (Object.keys(toRaw(contacts.value)).length) return
+  const fetchContact = async () => {
+    if (Object.keys(toRaw(contact.value)).length) return
     try {
       const response = await axios.get(import.meta.env.VITE_API_URL + 'contact')
-      contacts.value = response.data
+      contact.value = response.data
       error.value = false
     } catch (error) {
       console.log(error)
@@ -47,7 +48,7 @@ export const useAppStore = defineStore('app', () => {
     diplomas,
     experiences,
     skills,
-    fetchContacts,
-    contacts
+    fetchContact,
+    contact
   }
 })
