@@ -4,7 +4,14 @@
     <Header />
     <main class="main">
       <router-view v-slot="{ Component }">
-        <transition name="page" mode="out-in" @enter="enter" @afterEnter="afterEnter" appear>
+        <transition
+          name="page"
+          mode="out-in"
+          @enter="enter"
+          @afterEnter="afterEnter"
+          @enter-cancelled="enterCancelled"
+          appear
+        >
           <component :is="Component" />
         </transition>
       </router-view>
@@ -37,9 +44,15 @@ const init = async () => {
 }
 init()
 
+const enterCancelled = (element) => {
+  element.style.transitionDuration = '0s'
+  console.log('enter cancelled')
+}
+
 const enter = (element) => {
   const { height } = getComputedStyle(element)
 
+  element.style.transitionDuration = parseInt(height) / 500 + 's'
   element.style.height = 0
 
   setTimeout(() => {
@@ -49,5 +62,6 @@ const enter = (element) => {
 
 const afterEnter = (element) => {
   element.style.height = 'auto'
+  element.style.transitionDuration = '0s'
 }
 </script>
