@@ -3,8 +3,8 @@
     <div class="intro-wrapper">
       <div class="image"></div>
       <div>
-        <h1 class="title3 name">HUGO LAHAXE</h1>
-        <p class="text2 job">Développeur Web Front-End</p>
+        <h1 class="title3 name">{{ homeDetails.site_title }}</h1>
+        <p class="text2 job">{{ homeDetails.site_subtitle }}</p>
       </div>
     </div>
 
@@ -21,9 +21,7 @@
       <div v-for="(diploma, index) in diplomas" :key="diploma.name">
         <h3 class="title2">{{ diploma.name }}</h3>
         <p class="title3">{{ diploma.school }}</p>
-        <p class="text2">
-          {{ diploma['date-from'] }} - {{ diploma['date-to'] }}, {{ diploma.location }}
-        </p>
+        <p class="text2">{{ diploma.dateFrom }} - {{ diploma.dateTo }}, {{ diploma.location }}</p>
         <p>{{ diploma.description }}</p>
       </div>
     </div>
@@ -34,14 +32,13 @@
         <h3 class="title2">{{ experience.name }}</h3>
         <p class="title3">{{ experience.company }}</p>
         <p class="text2">
-          {{ experience['date-from']
-          }}{{
-            experience['date-from'] !== experience['date-to'] ? ' - ' + experience['date-to'] : ''
-          }}, {{ experience.location }}
+          {{ experience.dateFrom
+          }}{{ experience.dateFrom !== experience.dateTo ? ' - ' + experience.dateTo : '' }},
+          {{ experience.location }}
         </p>
         <ul class="details">
-          <li v-for="(detail, index) in experience.details" :key="index">
-            {{ detail }}
+          <li v-for="(detail, index) in experience.experienceDetails" :key="index">
+            {{ detail.name }}
           </li>
         </ul>
       </div>
@@ -50,9 +47,12 @@
 </template>
 
 <script setup>
-import skills from '@/data/skills.json'
-import diplomas from '@/data/diplomas.json'
-import experiences from '@/data/experiences.json'
+import { storeToRefs } from 'pinia'
+import { useAppStore } from '@/stores/app'
+
+const store = useAppStore()
+store.fetchHome()
+const { skills, diplomas, experiences, homeDetails } = storeToRefs(store)
 </script>
 
 <style scoped>
@@ -74,6 +74,7 @@ import experiences from '@/data/experiences.json'
 .name {
   font-size: 28px;
   line-height: 24px;
+  text-transform: uppercase;
 }
 .job {
   font-size: 18px;
